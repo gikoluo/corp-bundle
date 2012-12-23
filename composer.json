@@ -1,0 +1,32 @@
+{
+    "name": "gikoluo/corp-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony Giko Image Corp Bundle",
+    "keywords": ["Image Corp"],
+    "homepage": "https://github.com/gikoluo/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luo Chunhui",
+            "email": "wo@luochunhui.com",
+            "homepage": "http://www.luochunhui.com/"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": ">=2.1,<2.3-dev",
+    },
+    "require-dev": {
+        "symfony/yaml": "2.1.*",
+    },
+    "autoload": {
+        "psr-0": { "Gikoluo\\CorpBundle": "" }
+    },
+    "target-dir": "Gikoluo/CorpBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    }
+}

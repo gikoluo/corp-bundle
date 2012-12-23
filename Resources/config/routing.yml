@@ -1,0 +1,10 @@
+giko_corp_default:
+    pattern:  /cache/{size}/{source}
+    defaults: { _controller: GikoCorpBundle:Default:index }
+    requirements:
+        source: ".+"
+
+giko_corp_url:
+    pattern:  /corp/url
+    defaults: { _controller: GikoCorpBundle:Default:url }
+    

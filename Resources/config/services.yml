@@ -1,0 +1,11 @@
+parameters:
+    giko.corp.class:        Giko\CorpBundle\Cache\Generater
+    giko.corp.url_path:     cache
+    
+services:
+    giko.corp:
+        class:     "%giko.corp.class%"
+        arguments:
+          - "@service_container"
+          - %giko.corp.url_path%
+          

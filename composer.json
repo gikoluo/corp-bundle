@@ -23,10 +23,5 @@
     "autoload": {
         "psr-0": { "Giko\\CorpBundle": "" }
     },
-    "target-dir": "Giko/CorpBundle",
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.0.x-dev"
-        }
-    }
+    "target-dir": "Giko/CorpBundle"
 }

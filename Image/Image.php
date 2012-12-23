@@ -66,7 +66,7 @@ class Image
         $this->_getAdapter()->checkDependencies();
 
         if( !file_exists($this->_fileName) ) {
-            throw new Exception("File '{$this->_fileName}' does not exists.");
+            throw new \Exception("File '{$this->_fileName}' does not exists.");
         }
 
         $this->_getAdapter()->open($this->_fileName);

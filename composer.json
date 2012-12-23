@@ -1,5 +1,5 @@
 {
-    "name": "gikoluo/corp-bundle",
+    "name": "giko/corp-bundle",
     "type": "symfony-bundle",
     "description": "Symfony Giko Image Corp Bundle",
     "keywords": ["Image Corp"],
